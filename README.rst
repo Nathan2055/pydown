@@ -4,7 +4,7 @@ pydown
 
 Pydown is a library for downloading files from the Internet. It also includes a simple textual interface. I have currently written it as my first production use program, so I'm keeping it in a state of perpetual beta until I'm absolutley sure it works. Install it using your preferred method of getting Python packages and then open the interface simply by calling it with no arguments or use its functions in your own code.
 
-As of version 1.2.1, pydown requires ```distribute <https://pypi.python.org/pypi/distribute>`_`` (or ```setuptools <https://pypi.python.org/pypi/setuptools/>`_``, but distribute is preferred) to install.
+As of version 1.2.1, pydown requires Distribute or setuptools to install.
 
 Todo list
 ===========
