@@ -8,7 +8,7 @@ setup(
     packages=['pydown',],
     url='http://pypi.python.org/pypi/pydown/',
     license='BSD license',
-    description='A program that provides easy downloading to Python 3',
+    description='The ultimate downloading library for Python',
     long_description=open('README.rst').read(),
     classifiers=[
         "License :: OSI Approved :: BSD License",
