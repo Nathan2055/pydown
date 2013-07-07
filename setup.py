@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='pydown',
-    version='1.3',
+    version='1.4',
     author='Nathan2055',
     author_email='nathan2055@private.fake',
     packages=['pydown',],
