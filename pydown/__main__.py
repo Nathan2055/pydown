@@ -1,3 +1,1 @@
-# Wrapper for the pydown CLI
-
-from pydown import cli
+print('This program no longer has a CLI. Please see the documentation at http://pythonhosted.org/pydown for more info.')
