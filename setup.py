@@ -2,20 +2,20 @@ from setuptools import setup
 
 setup(
     name='pydown',
-    version='1.4',
+    version='0.1',
     author='Nathan2055',
     author_email='nathan2055@private.fake',
     packages=['pydown',],
     url='http://pypi.python.org/pypi/pydown/',
-    license='BSD license',
-    description='The ultimate downloading library for Python',
+    license=open('LICENSE.txt').read()
+    description='Downloading, simplified',
     long_description=open('README.rst').read(),
     classifiers=[
         "License :: OSI Approved :: BSD License",
         "Programming Language :: Python",
-        "Development Status :: 4 - Beta",
+        "Development Status :: 3 - Alpha",
         "Intended Audience :: Developers",
-        "Topic :: Utilities",
+        "Topic :: Software Development :: Libraries",
     ],
     install_requires=[
     'setuptools',
