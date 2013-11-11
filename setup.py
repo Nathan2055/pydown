@@ -1,5 +1,9 @@
 from setuptools import setup
 
+# Auto-bootstrap setuptools, remove these two lines if you are running a custom version
+from ez_setup import use_setuptools
+use_setuptools()
+
 setup(
     name='pydown',
     version='0.1',
