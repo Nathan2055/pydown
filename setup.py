@@ -1,27 +1,21 @@
-from setuptools import setup
+import setuptools
 
-# Auto-bootstrap setuptools, remove these two lines if you are running a custom version
-from ez_setup import use_setuptools
-use_setuptools()
+with open("README.md", "r") as fh:
+    long_description = fh.read()
 
-setup(
-    name='pydown',
-    version='0.1',
-    author='Nathan2055',
-    author_email='nathan2055@private.fake',
-    packages=['pydown',],
-    url='http://pypi.python.org/pypi/pydown/',
-    license=open('LICENSE.txt').read()
-    description='Downloading, simplified',
-    long_description=open('README.rst').read(),
+setuptools.setup(
+    name="pydown",
+    version="2.0",
+    author="Nathan Larsen",
+    author_email="nlarsen@nathan2055.com",
+    description="Python library allowing you to download files with a one-liner",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
+    url="https://github.com/Nathan2055/pydown",
+    packages=setuptools.find_packages(),
     classifiers=[
-        "License :: OSI Approved :: BSD License",
-        "Programming Language :: Python",
-        "Development Status :: 3 - Alpha",
-        "Intended Audience :: Developers",
-        "Topic :: Software Development :: Libraries",
-    ],
-    install_requires=[
-    'setuptools',
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
     ],
 )
