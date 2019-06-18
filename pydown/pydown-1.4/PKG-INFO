@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: pydown
+Version: 1.4
+Summary: The ultimate downloading library for Python
+Home-page: http://pypi.python.org/pypi/pydown/
+Author: Nathan2055
+Author-email: nathan2055@private.fake
+License: BSD license
+Description: ===========
+        pydown
+        ===========
+        
+        Pydown is a library for downloading files from the Internet. It also includes a simple textual interface. Install it using your preferred method of getting Python packages and then open the interface simply by calling it with no arguments (`python -m pydown`) or by using its functions in your own code.
+        
+        As of version 1.2.1, pydown requires Distribute or setuptools to install.
+        
+        The bugtracker is available at `https://github.com/Nathan2055/pydown/issues <https://github.com/Nathan2055/pydown/issues>`_. The documentation can be found at `https://github.com/Nathan2055/pydown/wiki <https://github.com/Nathan2055/pydown/wiki>`_.
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Utilities
